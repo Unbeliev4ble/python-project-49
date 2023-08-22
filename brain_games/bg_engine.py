@@ -1,19 +1,19 @@
 import prompt
-from brain_games.games.brain_even import *
+
 
 rounds_to_win = 3
 
 
-def lets_play():
+def lets_play(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f"Hello, {user_name}!")
 
-    print(f"{task}")
+    print(f"{game.task}")
 
     correct_answers_counter = 0
     while correct_answers_counter < rounds_to_win:
-        expression, correct_answer = game_options()
+        expression, correct_answer = game.game_options()
         print(f'Question: {expression}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
@@ -25,6 +25,3 @@ def lets_play():
             return
     print('')
     print(f'Congratulatios, {user_name}!')
-
-
-lets_play()

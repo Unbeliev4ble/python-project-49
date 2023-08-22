@@ -10,4 +10,3 @@ def game_options():
     if number % 2 != 0:
         correct_answer = 'no'
     return number, correct_answer
-

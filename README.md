@@ -5,5 +5,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/07a25930bbd5ded6b395/maintainability)](https://codeclimate.com/github/Unbeliev4ble/python-project-49/maintainability)
 
 
-### Asciinema demonstration
-[https://asciinema.org/a/ytPsf8eSG4V4RjRG4bShdydb4]
+### Asciinema demonstrations
+# brain-even
+[https://asciinema.org/a/UPXubEnzWx3NVcfJzk3LRHmWb]
+# brain-calc
+[https://asciinema.org/a/O7wm3ZL9SfDYYIYNhmRcD5HfG]
