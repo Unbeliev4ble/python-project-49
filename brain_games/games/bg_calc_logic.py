@@ -18,4 +18,5 @@ def game_options():
     second_num = random.randint(1, 12)
     expression = f"{first_num} {picked_operator} {second_num}"
     correct_answer = str(operator_functions[picked_operator](first_num, second_num))
+
     return expression, correct_answer
