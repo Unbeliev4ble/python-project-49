@@ -24,4 +24,4 @@ def lets_play(game):
             print(f"Let's try again, {user_name}!")
             return
     print('')
-    print(f'Congratulatios, {user_name}!')
+    print(f'Congratulations, {user_name}!')
