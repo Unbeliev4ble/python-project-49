@@ -1,7 +1,7 @@
 import prompt
 
 
-rounds_to_win = 3
+ROUNDS_TO_WIN = 3
 
 
 def lets_play(game):
@@ -12,7 +12,7 @@ def lets_play(game):
     print(f"{game.task}")
 
     correct_answers_counter = 0
-    while correct_answers_counter < rounds_to_win:
+    while correct_answers_counter < ROUNDS_TO_WIN:
         expression, correct_answer = game.game_options()
         print(f'Question: {expression}')
         user_answer = prompt.string('Your answer: ')
