@@ -8,14 +8,14 @@ def game_options():
     progression_step = randint(2, 10)
     progression_start = randint(1, 100)
     progression_length = 10
-    progression_counter = 0
-    num_list = []
+    nums_counter = 0
+    nums = []
 
-    while progression_counter < progression_length:
-        num_list.append(str(progression_start + progression_step * progression_counter))
-        progression_counter += 1
+    while nums_counter < progression_length:
+        nums.append(str(progression_start + progression_step * nums_counter))
+        nums_counter += 1
     changing_index = randint(1, progression_length - 1)
-    correct_answer = num_list[changing_index]
-    num_list[changing_index] = '..'
-    progression_row = ' '.join(num_list)
+    correct_answer = nums[changing_index]
+    nums[changing_index] = '..'
+    progression_row = ' '.join(nums)
     return progression_row, correct_answer

@@ -1,5 +1,5 @@
 
-## Brain games project
+## Brain games 
 ___
 
 ### Hexlet  status:
@@ -8,7 +8,7 @@ ___
 ### Сodeclimate Maintainability badge:
 [![Maintainability](https://api.codeclimate.com/v1/badges/07a25930bbd5ded6b395/maintainability)](https://codeclimate.com/github/Unbeliev4ble/python-project-49/maintainability)
 
-**Brain games project**  is Python project that contains a set of 5 simple math games:
+**Brain games**  is Python project that contains a set of 5 simple math games:
 + **brain-even** *where u have to guess if the number is even*
 + **brain-calc** *where you have to give an answer to a simple mathematical expression*
 + **brain-gcd** *where you have to guess the greatest common divisor of given numbers*
