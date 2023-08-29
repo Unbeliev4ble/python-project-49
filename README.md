@@ -24,10 +24,20 @@ Launch examples:
 
 **[brain-even](https://asciinema.org/a/kMK45IFC6IOTaoJ0akIjjbOXS)**
 
+[![asciicast](https://asciinema.org/a/kMK45IFC6IOTaoJ0akIjjbOXS.svg)](https://asciinema.org/a/kMK45IFC6IOTaoJ0akIjjbOXS)
+
 **[brain-calc](https://asciinema.org/a/rQCVkz10KJyf5NdSR9C2IKqxq)**
+
+[![asciicast](https://asciinema.org/a/rQCVkz10KJyf5NdSR9C2IKqxq.svg)](https://asciinema.org/a/rQCVkz10KJyf5NdSR9C2IKqxq)
 
 **[brain-gcd](https://asciinema.org/a/kuO5vyJ3shoUKl0hDyGLJBKZY)**
 
+[![asciicast](https://asciinema.org/a/kuO5vyJ3shoUKl0hDyGLJBKZY.svg)](https://asciinema.org/a/kuO5vyJ3shoUKl0hDyGLJBKZY)
+
 **[brain-progression](https://asciinema.org/a/PP5dOlN9ROaiXb1OdFk8XYeYX)**
 
+[![asciicast](https://asciinema.org/a/PP5dOlN9ROaiXb1OdFk8XYeYX.svg)](https://asciinema.org/a/PP5dOlN9ROaiXb1OdFk8XYeYX)
+
 **[brain-prime](https://asciinema.org/a/1Tr5trf7ahZhu1FvvcKTUD209)**
+
+[![asciicast](https://asciinema.org/a/1Tr5trf7ahZhu1FvvcKTUD209.svg)](https://asciinema.org/a/1Tr5trf7ahZhu1FvvcKTUD209)
