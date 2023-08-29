@@ -15,12 +15,31 @@ ___
 + **brain-progression** *where u have to where you have to guess the missing element of the arithmetic progression*
 + **brain-prime** *where u have to guess if number is prime*
 
+### Installation
+Before installing the package make sure you have [Python 3.10](https://www.python.org/downloads/) (or higher) and [Poetry](https://python-poetry.org/docs/) installed.
 
-To install games, after downloading the repository, go to the main directory of the project and type in the terminal:
-`python3 -m pip install --user dist/*.whl`,
-after which you can start the game you are interested in by typing its name.
+*1. Download the package:*
 
-Launch examples:
+   `git clone git@github.com:Unbeliev4ble/python-project-49.git`
+
+
+*2. Go to the project main directory:*
+
+   `cd brain_games`
+
+*3. Activate Poetry project manager:*
+    
+`poetry install`
+
+`poetry build`
+
+*4. Install the package:*
+
+`python3 -m pip install --user dist/*.whl`
+
+After this steps you can start the game you are interested in by typing its name.
+
+### Launch examples:
 
 **[brain-even](https://asciinema.org/a/kMK45IFC6IOTaoJ0akIjjbOXS)**
 
@@ -41,3 +60,4 @@ Launch examples:
 **[brain-prime](https://asciinema.org/a/1Tr5trf7ahZhu1FvvcKTUD209)**
 
 [![asciicast](https://asciinema.org/a/1Tr5trf7ahZhu1FvvcKTUD209.svg)](https://asciinema.org/a/1Tr5trf7ahZhu1FvvcKTUD209)
+

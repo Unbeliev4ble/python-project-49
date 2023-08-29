@@ -6,6 +6,11 @@ authors = ["Andrey Volkov <andrew.unbelievable@yandex.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = 'https://github.com/Unbeliev4ble/python-project-49'
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Framework :: Flake8",
+    "Natural Language :: English",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
