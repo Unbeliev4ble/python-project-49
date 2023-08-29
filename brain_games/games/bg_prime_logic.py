@@ -4,11 +4,17 @@ from random import randint
 task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_options():
-    number = randint(1, 100)
-    correct_answer = 'yes'
+def is_number_prime(number):
     for i in range(2, number // 2 + 1):
         if number % i == 0:
-            correct_answer = 'no'
-            break
+            return False
+    return True
+
+
+def game_options():
+    number = randint(1, 100)
+    if is_number_prime(number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
     return number, correct_answer
