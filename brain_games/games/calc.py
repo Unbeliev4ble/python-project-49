@@ -2,10 +2,12 @@ import operator
 import random
 
 
-task = 'What is the result of the expression?'
+TASK = 'What is the result of the expression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 10
 
 
-def game_options():
+def get_question_and_answer():
     operator_list = ['*', '+', '-']
     operator_functions = {
         '+': operator.add,
@@ -15,9 +17,9 @@ def game_options():
 
     picked_operator = random.choice(operator_list)
 
-    num_1 = random.randint(1, 10)
-    num_2 = random.randint(1, 12)
+    num_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    num_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
 
-    expression = f"{num_1} {picked_operator} {num_2}"
+    question = f"{num_1} {picked_operator} {num_2}"
     correct_answer = str(operator_functions[picked_operator](num_1, num_2))
-    return expression, correct_answer
+    return question, correct_answer

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.bg_engine import start_game
-from brain_games.games import bg_calc_logic
+from brain_games.engine import play_game
+from brain_games.games import calc
 
 
 def main():
-    start_game(bg_calc_logic)
+    play_game(calc)
 
 
 if __name__ == 'main':

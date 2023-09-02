@@ -4,16 +4,16 @@ import prompt
 ROUNDS_TO_WIN = 3
 
 
-def start_game(game_logic):
+def play_game(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f"Hello, {user_name}!")
 
-    print(f"{game_logic.task}")
+    print(f"{game.TASK}")
 
     correct_answers_counter = 0
     while correct_answers_counter < ROUNDS_TO_WIN:
-        expression, correct_answer = game_logic.game_options()
+        expression, correct_answer = game.get_question_and_answer()
         print(f'Question: {expression}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
