@@ -30,9 +30,11 @@ def get_question_and_answer():
     initial_term = randint(INITIAL_TERM_MIN, INITIAL_TERM_MAX)
     common_difference = randint(COMMON_DIFFERENCE_MIN, COMMON_DIFFERENCE_MAX)
     terms_quantity = randint(TERMS_QUANTITY_MIN, TERMS_QUANTITY_MAX)
-    progression = generate_progression(initial_term, common_difference, terms_quantity)
+
+    progression = \
+        (generate_progression(initial_term, common_difference, terms_quantity))
+
     hidden_element_index = choice(range(len(progression)))
+
     question, correct_answer = hide_element(progression, hidden_element_index)
     return question, correct_answer
-
-

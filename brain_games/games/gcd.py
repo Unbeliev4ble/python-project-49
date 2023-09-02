@@ -18,4 +18,3 @@ def get_question_and_answer():
     correct_answer = str(get_gcd(num_1, num_2))
     question = f'{num_1} {num_2}'
     return question, correct_answer
-
