@@ -12,10 +12,10 @@ ___
 + **brain-even** *where u have to guess if the number is even*
 + **brain-calc** *where you have to give an answer to a simple mathematical expression*
 + **brain-gcd** *where you have to guess the greatest common divisor of given numbers*
-+ **brain-progression** *where u have to where you have to guess the missing element of the arithmetic progression*
++ **brain-progression** *where you have to guess the missing element of the arithmetic progression*
 + **brain-prime** *where u have to guess if number is prime*
 
-### Installation
+### Installation:
 Before installing the package make sure you have [Python 3.10](https://www.python.org/downloads/) (or higher) and [Poetry](https://python-poetry.org/docs/) installed.
 
 *1. Download the package:*
